@@ -5,7 +5,8 @@ export const Time = () => {
     return (
     <div>
         <div>Time</div>
-        <div>{dynamicDateString} (Dinamico)</div>    
+        <div>{dynamicDateString} (Dinamico)</div> 
+    
     </div>
 )
 }
