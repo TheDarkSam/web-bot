@@ -7,7 +7,8 @@ import { History } from './pages/history'
 export const Router = () => {
     return (
         <Routes>
-            <Route path='/' element={<Time />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/time' element={<Time />} />
             <Route path='/history' element={<History />} />
         </Routes>
     )
